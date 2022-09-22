@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #fff;
+    --secondry-color: #141414;
+    --logo-color: #d81f26;
+}
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--secondry-color);
+    color: var(--primary-color);
+}
