@@ -1,25 +1,25 @@
 :root {
-    --primary-color: #fff;
-    --secondry-color: #141414;
-    --logo-color: #d81f26;
+  --primary-color: #fff;
+  --secondry-color: #141414;
+  --logo-color: #d81f26;
+  --secondry-color-transparent: #1414148e;
 }
-
 
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: 'Source Sans Pro', sans-serif;
+  font-size: 62.5%;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 body {
-    box-sizing: border-box;
-    background-color: var(--secondry-color);
-    color: var(--primary-color);
+  box-sizing: border-box;
+  background-color: var(--secondry-color);
+  color: var(--primary-color);
 }

@@ -14,6 +14,38 @@
     <title>GameFlix | Welcome Page</title>
   </head>
   <body>
-    <h1>WELCOME PAGE</h1>
+    <header class="header">
+      <div class="header__left">
+        <h1 class="header__logo">GAMEFLIX</h1>
+        <nav class="user-nav">
+          <h6 class="user-nav__toggle">Bla gjennom</h6>
+          <ul class="user-nav__list">
+            <li class="user-nav__list-items"><a href="#">Home</a></li>
+            <li class="user-nav__list-items"><a href="#">Steams</a></li>
+            <li class="user-nav__list-items"><a href="#">My list</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__right">
+        <form class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Game, platforms..."
+          />
+        </form>
+        <div class="search-icon">
+          <svg class="header__search-icon">
+            <use xlink:href="../icons/sprite.svg#icon-magnifying-glass"></use>
+          </svg>
+        </div>
+        <div class="header__notification">
+          <svg class="header__notification-icon">
+            <use xlink:href="../icons/sprite.svg#icon-bell"></use>
+          </svg>
+        </div>
+        <div class="header__avatar"></div>
+      </div>
+    </header>
   </body>
 </html>
