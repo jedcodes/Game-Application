@@ -1,0 +1,19 @@
+.header__logo {
+  color: var(--logo-color);
+}
+
+.header__content-title:has(h1) {
+  text-align: center;
+  font-size: 1.1rem;
+  letter-spacing: 0.3rem;
+}
+
+.header__content:has(p) {
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0.23rem;
+}
+
+.header__content:has(button) {
+  margin-top: 3rem;
+}

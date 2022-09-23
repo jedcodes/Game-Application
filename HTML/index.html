@@ -15,37 +15,70 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__left">
-        <h1 class="header__logo">GAMEFLIX</h1>
-        <nav class="user-nav">
-          <h6 class="user-nav__toggle">Bla gjennom</h6>
-          <ul class="user-nav__list">
-            <li class="user-nav__list-items"><a href="#">Home</a></li>
-            <li class="user-nav__list-items"><a href="#">Steams</a></li>
-            <li class="user-nav__list-items"><a href="#">My list</a></li>
-          </ul>
-        </nav>
+      <div class="header__nav">
+        <div class="header__left">
+          <h1 class="header__logo">GAMEFLIX</h1>
+          <nav class="user-nav">
+            <h6 class="user-nav__toggle">Bla gjennom</h6>
+            <ul class="user-nav__list">
+              <li class="user-nav__list-items"><a href="#">Home</a></li>
+              <li class="user-nav__list-items"><a href="#">Steams</a></li>
+              <li class="user-nav__list-items"><a href="#">My list</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__right">
+          <form class="search">
+            <svg class="header__search-icon">
+              <use xlink:href="../icons/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+            <input
+              type="text"
+              class="search__input"
+              placeholder="Game, platforms..."
+            />
+          </form>
+          <div class="search-icon">
+            <svg class="header__search-icon">
+              <use xlink:href="../icons/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </div>
+          <div class="header__notification">
+            <svg class="header__notification-icon">
+              <use xlink:href="../icons/sprite.svg#icon-bell"></use>
+            </svg>
+          </div>
+          <div class="header__avatar"></div>
+        </div>
       </div>
-      <div class="header__right">
-        <form class="search">
-          <input
-            type="text"
-            class="search__input"
-            placeholder="Game, platforms..."
-          />
-        </form>
-        <div class="search-icon">
-          <svg class="header__search-icon">
-            <use xlink:href="../icons/sprite.svg#icon-magnifying-glass"></use>
-          </svg>
+      <div class="header__content">
+        <div class="header__content-title">
+          <h1>
+            Discover your game <br />
+            tournament here!
+          </h1>
         </div>
-        <div class="header__notification">
-          <svg class="header__notification-icon">
-            <use xlink:href="../icons/sprite.svg#icon-bell"></use>
-          </svg>
+        <div class="header__content-paragraph">
+          <p>Over 1000+ games waiting for you to discover</p>
         </div>
-        <div class="header__avatar"></div>
       </div>
     </header>
+    <!-- HEADER SECTION END HERE -->
+    <main>
+      <section class="platform">
+        <div class="platform__container">
+          <img src="../images/playstation.jpeg" alt="" />
+        </div>
+        <div class="platform__container">
+          <img src="../images/xbox.jpeg" alt="" />
+        </div>
+        <div class="platform__container">
+          <img src="../images/switch.png" alt="" />
+        </div>
+        <div class="platform__container">
+          <img src="../images/playstation.jpeg" alt="" />
+        </div>
+      </section>
+    </main>
   </body>
 </html>
